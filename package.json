@@ -1,0 +1,35 @@
+{
+  "name": "forge-app",
+  "version": "1.0.0",
+  "description": "Forge App is a simple yet efficient todo application designed to help users manage their tasks effectively.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "next": "15.0.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "typescript": "5.0.0",
+    "tailwindcss": "^3.0.0",
+    "lucide-react": "^0.2.0",
+    "firebase": "^9.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.0",
+    "@types/node": "^20.0.0",
+    "autoprefixer": "^10.0.0",
+    "postcss": "^8.0.0"
+  },
+  "browserslist": [
+    "defaults",
+    "not IE 11",
+    "not dead"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
